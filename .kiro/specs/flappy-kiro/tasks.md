@@ -43,7 +43,7 @@
 
 ### T-001 — Create project directory structure
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** nothing  
 **Design ref:** §8 (File Tree)  
 **REQ:** REQ-NFR-007
@@ -75,7 +75,7 @@ tests/usecases/
 
 ### T-002 — Implement `config.js` (centralized constants)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-001  
 **Design ref:** §7  
 **REQ:** REQ-PHY-002/004/007/009, REQ-OBG-000/002, REQ-CDT-001, REQ-NFR-006, REQ-VUI-001, REQ-GSM-018/020, REQ-PSF-008/008B, REQ-AVF-017, REQ-DGP-012, all physics constants
@@ -112,7 +112,7 @@ Write the complete, frozen `config.js` as specified in `design.md §7`. Every na
 
 ### T-003 — Implement `index.html`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-001  
 **Design ref:** §12.3  
 **REQ:** REQ-NFR-007, REQ-NFR-003
@@ -145,7 +145,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-010 — Implement domain enumerations
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-002  
 **Design ref:** §3.1  
 **REQ:** REQ-GSM-001, REQ-PRS-001–005, REQ-PSF-002–007, REQ-DGP-008
@@ -166,7 +166,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-011 — Implement `GhostyState` entity
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §3.2  
 **REQ:** REQ-PHY-003–015, REQ-CDT-001, REQ-CDT-011/012
@@ -187,7 +187,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-012 — Implement `Gap`, `Pipe`, `ScoreState`, `DifficultyState`, `ParticleState`, `NotificationState` entities
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §3.3–3.8  
 **REQ:** REQ-DGP-004, REQ-OBG-007, REQ-PRS-006, REQ-DGP-011B, REQ-OBG-009, REQ-AVF-013, REQ-PSF-008/008B
@@ -209,7 +209,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-013 — Implement `PrecisionRules.js` pure functions
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010, T-012  
 **Design ref:** §3.9  
 **REQ:** REQ-PSF-001B, REQ-PSF-002–004
@@ -234,7 +234,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-014 — Implement `ScoreFormula.js` pure functions
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §3.9  
 **REQ:** REQ-PRS-006, REQ-DGP-008C
@@ -259,7 +259,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-015 — Implement `PhysicsFormulas.js` pure functions
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-002  
 **Design ref:** §3.9  
 **REQ:** REQ-PHY-003/008/010/012/013, REQ-CDT-001/004
@@ -287,7 +287,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-016 — Implement `ModifierBadgeExpressions.js` pure function
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §3.9  
 **REQ:** REQ-DGP-007B, REQ-DGP-008C
@@ -318,7 +318,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-030 — Implement port interfaces
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §4.1  
 **REQ:** REQ-GSM-018/020, REQ-AVF-001–009, REQ-CGL-005/016
@@ -336,7 +336,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-031 — Implement `PhysicsEngine`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-015, T-011, T-002  
 **Design ref:** §4.2  
 **REQ:** REQ-PHY-001–015, REQ-CGL-006
@@ -365,7 +365,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-032 — Implement `CollisionUseCase`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-015, T-012, T-002  
 **Design ref:** §4.3  
 **REQ:** REQ-CDT-001–007, REQ-CGL-007/008
@@ -390,7 +390,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-033 — Implement `ScoringUseCase`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-013, T-014, T-012  
 **Design ref:** §4.4  
 **REQ:** REQ-PRS-006, REQ-PSF-001/001B, REQ-DGP-011B, REQ-DGP-008C
@@ -417,7 +417,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-034 — Implement `PipeFactory`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-012, T-016, T-002  
 **Design ref:** §4.5  
 **REQ:** REQ-PRS-001, REQ-OBG-004–008, REQ-DGP-007/008B, REQ-DGP-004/005
@@ -447,7 +447,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-035 — Implement `DifficultyUseCase`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-002  
 **Design ref:** §4.6  
 **REQ:** REQ-OBG-011–016, REQ-DGP-008 (SLOW_TIME row)
@@ -477,7 +477,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-036 — Implement `ModifierApplicationUseCase`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-033, T-035, T-011  
 **Design ref:** §4.7  
 **REQ:** REQ-DGP-008/009/011, REQ-DGP-008C
@@ -507,7 +507,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-037 — Implement `GameStateMachine`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010  
 **Design ref:** §4.8  
 **REQ:** REQ-GSM-001/002
@@ -537,7 +537,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-038 — Implement `GameResetUseCase`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-011, T-002  
 **Design ref:** §4.9  
 **REQ:** REQ-GSM-021
@@ -571,7 +571,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-050 — Implement `StorageAdapter`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-030  
 **Design ref:** §5.3  
 **REQ:** REQ-GSM-018/019/020
@@ -593,7 +593,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-051 — Implement `InputController`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-030, T-002  
 **Design ref:** §5.1  
 **REQ:** REQ-CGL-005/016, REQ-GSM-010, REQ-NFR-003
@@ -616,7 +616,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-052 — Implement `AudioController`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-030  
 **Design ref:** §5.2  
 **REQ:** REQ-AVF-001–009, REQ-CGL-016
@@ -640,7 +640,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-053 — Implement `UIPresenter`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-010, T-012  
 **Design ref:** §5.4  
 **REQ:** REQ-VUI-004, REQ-PSF-008/008B, REQ-AVF-016–020, REQ-DGP-013
@@ -666,7 +666,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-054 — Implement `GameOrchestrator` — state wiring and reset
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-037, T-038, T-050, T-051, T-052, T-053  
 **Design ref:** §5.5  
 **REQ:** REQ-GSM-006/016/017, REQ-GSM-021, REQ-CGL-014
@@ -689,7 +689,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-055 — Implement `GameOrchestrator` — full playing tick loop
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-054, T-031, T-032, T-033, T-034, T-035, T-036  
 **Design ref:** §5.5  
 **REQ:** REQ-GSM-007–009, REQ-CGL-003–008, REQ-PSF-001, REQ-DGP-009/014B
@@ -727,7 +727,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-056 — Implement `GameOrchestrator` — particle systems
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055, T-002  
 **Design ref:** §5.5  
 **REQ:** REQ-AVF-013/014/015, REQ-CDT-009/010, REQ-NFR-006
@@ -758,7 +758,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-057 — Implement pause button state tracking in orchestrator
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055  
 **Design ref:** §12.6 (OQ-11 resolution)  
 **REQ:** REQ-GSM-010–013, resolved OQ-11
@@ -787,7 +787,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-060 — Implement `AssetLoader`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-001  
 **Design ref:** §6.4  
 **REQ:** REQ-GSM-003/004, REQ-AVF-006
@@ -810,7 +810,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-061 — Implement `WebAudioAdapter`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-060  
 **Design ref:** §6.2  
 **REQ:** REQ-AVF-001–009
@@ -836,7 +836,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-062 — Implement `BrowserInputAdapter`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-051  
 **Design ref:** §6.3  
 **REQ:** REQ-NFR-003, REQ-CGL-005/016, REQ-GSM-010, resolved OQ-11
@@ -864,7 +864,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-063 — Implement `CanvasRenderer` — setup and background
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-002  
 **Design ref:** §6.1  
 **REQ:** REQ-VUI-001/002
@@ -887,7 +887,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-064 — Implement `CanvasRenderer` — pipes and modifier badges
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-063  
 **Design ref:** §6.1  
 **REQ:** REQ-PRS-002, REQ-VUI-005, REQ-DGP-012
@@ -913,7 +913,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-065 — Implement `CanvasRenderer` — Ghosty and particles
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-064  
 **Design ref:** §6.1  
 **REQ:** REQ-VUI-003, REQ-CDT-012, REQ-AVF-013/014
@@ -936,7 +936,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-066 — Implement `CanvasRenderer` — UI text layers
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-065  
 **Design ref:** §6.1  
 **REQ:** REQ-PSF-008/008B/009/011, REQ-AVF-016–020, REQ-VUI-004
@@ -967,7 +967,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-067 — Implement `CanvasRenderer` — state overlays and pause button
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-066  
 **Design ref:** §6.1, §12.6  
 **REQ:** REQ-GSM-005/011/015, REQ-CGL-001, resolved OQ-11
@@ -988,7 +988,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-068 — Implement `GameLoop`
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-002  
 **Design ref:** §6.5  
 **REQ:** REQ-NFR-002
@@ -1010,7 +1010,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-069 — Implement `CanvasRenderer` — idle bobbing animation
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-067  
 **Design ref:** §12.4 (GAP-13 resolution)  
 **REQ:** REQ-VUI-003, REQ-GSM-005
@@ -1036,7 +1036,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-070 — Implement `main.js` (composition root)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-038, T-054, T-055, T-056, T-057, T-060, T-061, T-062, T-063 through T-069  
 **Design ref:** §6.6  
 **REQ:** REQ-GSM-003/004, REQ-NFR-001/007
@@ -1057,7 +1057,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-071 — End-to-end smoke test: main menu → play → game over → restart
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-070  
 **Design ref:** §9.2 (State Machine diagram)  
 **REQ:** REQ-CGL-001/002/011/014, REQ-GSM-001
@@ -1077,7 +1077,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-072 — End-to-end smoke test: pause and resume
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-071  
 **REQ:** REQ-GSM-010/011/012/013
 
@@ -1095,7 +1095,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-073 — End-to-end smoke test: scoring and precision feedback
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-071  
 **REQ:** REQ-PSF-001–008B, REQ-PRS-003–006, REQ-AVF-016/018/019
 
@@ -1113,7 +1113,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-074 — End-to-end smoke test: Double-Gap pipes and modifiers
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-073  
 **REQ:** REQ-DGP-001/002/007/008/009/012
 
@@ -1140,7 +1140,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-080 — Set up test tooling
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-001  
 **Design ref:** §12.3, §10  
 **REQ:** REQ-NFR-001 (testability)
@@ -1161,7 +1161,7 @@ Write the minimal HTML entry point with canvas element, mobile viewport meta tag
 
 ### T-081 — PBT: `PrecisionRules` (P1–P8)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-013, T-080  
 **Design ref:** §10.1  
 **REQ:** REQ-PSF-001B–004
@@ -1175,7 +1175,7 @@ Implement all 8 properties from design §10.1 exactly as specified.
 
 ### T-082 — PBT: `ScoreFormula` (P9–P16)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-014, T-080  
 **Design ref:** §10.2  
 **REQ:** REQ-PRS-006, REQ-DGP-008C
@@ -1189,7 +1189,7 @@ Implement all 8 properties from design §10.2 exactly as specified.
 
 ### T-083 — PBT: `PhysicsFormulas` (P17–P26)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-015, T-080  
 **Design ref:** §10.3  
 **REQ:** REQ-PHY-003/008/010, REQ-CDT-001/004
@@ -1203,7 +1203,7 @@ Implement all 10 properties from design §10.3 exactly as specified.
 
 ### T-084 — PBT: `ScoringUseCase` pipeline (P27–P31)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-033, T-080  
 **Design ref:** §10.4  
 **REQ:** REQ-PRS-006, REQ-DGP-011B
@@ -1217,7 +1217,7 @@ Implement all 5 properties from design §10.4 exactly as specified.
 
 ### T-085 — PBT: `CollisionUseCase` boundaries (P32–P37)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-032, T-080  
 **Design ref:** §10.5  
 **REQ:** REQ-CDT-004–007, REQ-CGL-008
@@ -1231,7 +1231,7 @@ Implement all 6 properties from design §10.5 exactly as specified.
 
 ### T-086 — PBT: `PipeFactory` invariants (P38–P42)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-034, T-080  
 **Design ref:** §10.6  
 **REQ:** REQ-OBG-004–008, REQ-DGP-008B
@@ -1245,7 +1245,7 @@ Implement all 5 properties from design §10.6 exactly as specified.
 
 ### T-087 — PBT: `DifficultyUseCase` floors and triggers (P43–P47)
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-035, T-080  
 **Design ref:** §10.7  
 **REQ:** REQ-OBG-011–013, REQ-DGP-008 SLOW_TIME
@@ -1267,7 +1267,7 @@ Implement all 5 properties from design §10.7 exactly as specified.
 
 ### T-090 — Difficulty third-axis pipe drift animation
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055, T-035  
 **Design ref:** §4.6 (REQ-OBG-016)  
 **REQ:** REQ-OBG-016
@@ -1291,7 +1291,7 @@ When third difficulty axis is active, pipes oscillate their gap center Y over ti
 
 ### T-091 — Speed-Up subtitle notification
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055, T-057  
 **Design ref:** §9.1 (data flow)  
 **REQ:** REQ-OBG-014, REQ-PSF-008B
@@ -1311,7 +1311,7 @@ Display "Speed Up!" in the Subtitle Channel when a speed increment fires.
 
 ### T-092 — Slow-Time screen pulse effect
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055  
 **Design ref:** §6.1  
 **REQ:** REQ-AVF-012
@@ -1330,7 +1330,7 @@ When `SLOW_TIME` is collected, apply a brief ±3 px screen pulse.
 
 ### T-093 — localStorage round-trip: high score and mute persistence
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-050, T-071  
 **REQ:** REQ-GSM-018/019/020, REQ-CGL-016
 
@@ -1348,7 +1348,7 @@ When `SLOW_TIME` is collected, apply a brief ±3 px screen pulse.
 
 ### T-094 — GAME_OVER 0.8 s delay before overlay
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-055  
 **Design ref:** §9.6  
 **REQ:** REQ-GSM-014
@@ -1372,7 +1372,7 @@ Screen shake and burst particles play immediately on collision; the game-over ov
 
 ### T-095 — Mobile canvas tap-coordinate mapping
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-062  
 **Design ref:** §12.4  
 **REQ:** REQ-NFR-003
@@ -1392,7 +1392,7 @@ Ensure touch coordinates are correctly scaled from CSS pixels to logical game pi
 
 ### T-096 — Performance: disable trail on low-end devices
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-056, T-068  
 **Design ref:** §12.6 (OQ-08)  
 **REQ:** REQ-NFR-002, OQ-08
@@ -1415,7 +1415,7 @@ Auto-detect slow devices by measuring rolling frame time; disable trail particle
 
 ### T-097 — Favicon and page title
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-003  
 **REQ:** REQ-NFR-001 (polish)
 
@@ -1440,7 +1440,7 @@ Set `<title>Flappy Kiro</title>` and add a minimal SVG favicon (ghost emoji or s
 
 ### T-100 — Full PBT suite green
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-081 through T-087  
 **REQ:** All domain and use-case requirements
 
@@ -1455,7 +1455,7 @@ Set `<title>Flappy Kiro</title>` and add a minimal SVG favicon (ghost emoji or s
 
 ### T-101 — Full requirements traceability check
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-100, T-074  
 **Design ref:** §12.8
 
@@ -1481,7 +1481,7 @@ Walk through every `REQ-*` in `requirements.md` v0.3 and confirm it maps to eith
 
 ### T-102 — Cross-browser smoke test
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-071  
 **REQ:** REQ-NFR-002
 
@@ -1504,7 +1504,7 @@ Walk through every `REQ-*` in `requirements.md` v0.3 and confirm it maps to eith
 
 ### T-103 — Git tag v1.0.0
 
-**Status:** `[x]`  
+**Status:** `[ ]`  
 **Depends on:** T-100, T-101, T-102  
 **REQ:** n/a
 
