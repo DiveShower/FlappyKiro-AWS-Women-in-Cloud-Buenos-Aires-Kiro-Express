@@ -1,6 +1,6 @@
 ES: Proyecto realizado a raíz del evento AWS Women in Cloud Buenos Aires Kiro Express. Se trata de una recreación de Flappy Bird con nuestro afable amigo Kiro como Prota. 
 
-Combiné mi fasceta Gamer con la de diseñador y la de desarrollador para crear un proyecto con lka modalidad Spec-Driven Development, marco de desarrollo con agentes demostrado en el evento y prompts bien estructurados con Arquitectura Limpia detallada en el .md correspondiente (design.md), también incluido en las funcionalidades de KiroIDE. 
+Combiné mi fasceta Gamer con la de diseñador y la de desarrollador para crear un proyecto con la modalidad Spec-Driven Development, marco de desarrollo con agentes demostrado en el evento y prompts bien estructurados con Arquitectura Limpia detallada en el .md correspondiente (design.md), también incluido en las funcionalidades de KiroIDE. 
 
 El juego es jugable en el siguiente enlace: 
 https://flappy-kiro-aws-women-in-cloud-buen.vercel.app
@@ -11,3 +11,5 @@ I combined my gamer, designer, and developer sides to build a project using the 
 
 The game is playable at the following link:
 https://flappy-kiro-aws-women-in-cloud-buen.vercel.app
+
+![Flappy Kiro Preview](./kiroflappy.png)
