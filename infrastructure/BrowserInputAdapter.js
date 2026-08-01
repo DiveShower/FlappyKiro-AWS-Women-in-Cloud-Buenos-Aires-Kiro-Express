@@ -31,18 +31,10 @@ export class BrowserInputAdapter {
       }
     };
 
-    // Touch inputs (mobile/tablet)
-    canvas.addEventListener('touchstart', e => {
+    // Unified pointer input (handles touch, mouse, and pen seamlessly on mobile & desktop)
+    canvas.addEventListener('pointerdown', e => {
       e.preventDefault();
-      if (e.touches.length > 0) {
-        const touch = e.touches[0];
-        handleTap(touch.clientX, touch.clientY);
-      }
-    }, { passive: false });
-
-    // Mouse click inputs (desktop)
-    canvas.addEventListener('mousedown', e => {
       handleTap(e.clientX, e.clientY);
-    });
+    }, { passive: false });
   }
 }
