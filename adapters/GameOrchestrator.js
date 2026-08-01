@@ -366,6 +366,11 @@ export class GameOrchestrator {
     }
   }
 
+  isPauseButtonHit(tapX, tapY) {
+    const r = this.pauseButtonRect;
+    return tapX >= r.x && tapX <= r.x + r.w && tapY >= r.y && tapY <= r.y + r.h;
+  }
+
   _maybeSpawnPipe() {
     let spawnX = 0;
     if (this.pipes.length === 0) {
